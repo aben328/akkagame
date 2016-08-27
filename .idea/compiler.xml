@@ -22,7 +22,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
+        <module name="admin" />
+        <module name="cache" />
+        <module name="client" />
+        <module name="server" />
         <module name="slgGame" />
+        <module name="socket" />
+        <module name="utils" />
       </profile>
     </annotationProcessing>
   </component>
